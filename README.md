@@ -10,7 +10,8 @@ The company was founded in 1972 by Dirk Rossmann with its headquarters in Burgwe
 
 The company logo consists of a red name and the symbol of a centaur integrated in the letter O: a mythical creature made of horse and man from Greek mythology, which symbolically stands for "Rossmann" (In English: "Horse man").
 
-Problem Overview
+Problem Overview:
+
 Rossman Sales Prediction data is a data set containing historical sales data for a retail chain. The data includes store information, such as competitor details, store type, holidays and sales transaction.
 Using the data given we had to build a model for forecasting the sales in future.
 To build a machine learning model, we first perform EDA with various plots for better visualization.
