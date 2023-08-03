@@ -53,33 +53,33 @@ Step 10: Predictions & Saving model using pickel library.
 
 ## Libraries used in EDA & Machine Learning:
 
-Pandas
-Numpy
-Matplotib
-Seaborn
-Plotly
-Sklearn
-Scipy
+1. Pandas
+2. Numpy
+3. Matplotib
+4. Seaborn
+5. Plotly
+6. Sklearn
+7. Scipy
 
 ## Graphs used for representation:
 
-Bar plot
-Pie plot
-Box Plot
-Grouped bar plot
-Donut plot
-Heatmap
-Pair plot
+1. Bar plot
+2. Pie plot
+3. Box Plot
+4. Grouped bar plot
+5. Donut plot
+6. Heatmap
+7. Pair plot
 
 ## ML Models used for training & testing:
 
-Linear Regression
-Lasso Regression
-Ridge Regression
-Decision Tree Regressor
-Extra Tree Regressor
-XG Boost Regressor
-Light GBM Regressor
+1. Linear Regression
+2. Lasso Regression
+3. Ridge Regression
+4. Decision Tree Regressor
+5. Extra Tree Regressor
+6. XG Boost Regressor
+7. Light GBM Regressor
 
 ## Insights from EDA impacting business:
 
