@@ -1,8 +1,8 @@
 # Rossmann-Retail-Stores-Sales-Prediction
 
-Project Summary :-
+## Project Summary :-
 
-Company's Introduction
+## Company's Introduction
 ![download](https://user-images.githubusercontent.com/122456255/230047191-40e65c88-80dc-4e2e-a509-d4f354756c9e.jpg)
 
 
@@ -105,9 +105,9 @@ Faster training speed and higher efficiency: Light GBM uses a histogram-based al
 
 Lower memory usage: Replaces continuous values to discrete bins which results in lower memory usage.
 
-Better accuracy : It produces much more complex trees by following leaf wise split approach rather than a level-wise approach which is the main factor in achieving higher accuracy.
+**Better accuracy** : It produces much more complex trees by following leaf wise split approach rather than a level-wise approach which is the main factor in achieving higher accuracy.
 
-Good Compatibility with Large Datasets: It is capable of performing equally well with large datasets with a significantly less training time as compared to XGBoost.
+**Good Compatibility with Large Datasets:** It is capable of performing equally well with large datasets with a significantly less training time as compared to XGBoost.
 
 ## Limitations:
 
