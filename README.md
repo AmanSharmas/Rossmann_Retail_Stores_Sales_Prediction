@@ -12,9 +12,9 @@ The company was founded in 1972 by Dirk Rossmann with its headquarters in Burgwe
 
 The company logo consists of a red name and the symbol of a centaur integrated in the letter O: a mythical creature made of horse and man from Greek mythology, which symbolically stands for "Rossmann" (In English: "Horse man").
 
-Problem Overview:
+## Problem Overview:
 
-Problem Statement:
+## Problem Statement:
 
 Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Rossmann store managers are tasked with predicting their daily sales for up to six weeks in advance. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality. With thousands of individual managers predicting sales based on their unique circumstances, the accuracy of results can be quite varied.
 You are provided with historical sales data for 1,115 Rossmann stores. The task is to forecast the "Sales" column for the test set. Note that some stores in the dataset were temporarily closed for refurbishment.
@@ -25,7 +25,7 @@ Using the data given we had to build a model for forecasting the sales in future
 To build a machine learning model, we first perform EDA with various plots for better visualization.
 And then we split it into a training set and a test set and applied various machine learning algorithms using the training data to train the model. Finally, we evaluated the model's performance on the test data to see how well it predicted sales.
 
-Analysis Performed:
+## Analysis Performed:
 ![download](https://user-images.githubusercontent.com/122456255/230047363-983e5e91-97a8-4de5-a66f-e778bf98d2eb.png)
 
 
@@ -51,7 +51,7 @@ Step 9: Model Validation & Evaluation
 
 Step 10: Predictions & Saving model using pickel library.
 
-Libraries used in EDA & Machine Learning:
+## Libraries used in EDA & Machine Learning:
 
 Pandas
 Numpy
@@ -60,7 +60,8 @@ Seaborn
 Plotly
 Sklearn
 Scipy
-Graphs used for representation:
+
+## Graphs used for representation:
 
 Bar plot
 Pie plot
@@ -69,7 +70,8 @@ Grouped bar plot
 Donut plot
 Heatmap
 Pair plot
-ML Models used for training & testing:
+
+## ML Models used for training & testing:
 
 Linear Regression
 Lasso Regression
@@ -78,7 +80,8 @@ Decision Tree Regressor
 Extra Tree Regressor
 XG Boost Regressor
 Light GBM Regressor
-Insights from EDA impacting business:
+
+## Insights from EDA impacting business:
 
 The most selling and crowded store type is A.
 More stores are opened during School holidays than State holidays.
@@ -96,7 +99,7 @@ ML Model selected for deployment: Light GBM
 
 Light GBM is a fast, distributed, high-performance gradient boosting framework that uses a tree-based learning algorithm. It also supports GPU learning and is thus widely used for data science application development.
 
-Advantages:
+## Advantages:
 
 Faster training speed and higher efficiency: Light GBM uses a histogram-based algorithm i.e it buckets continuous feature values into discrete bins which fasten the training procedure.
 
@@ -106,10 +109,10 @@ Better accuracy : It produces much more complex trees by following leaf wise spl
 
 Good Compatibility with Large Datasets: It is capable of performing equally well with large datasets with a significantly less training time as compared to XGBoost.
 
-Limitations:
+## Limitations:
 
 Complexity: Light GBM split the tree leaf-wise which can lead to overfitting as it produces much complex trees.
 Overfitting: Light GBM is sensitive to overfitting and thus can easily overfit small dataset.
 
-Suggestion:
+## Suggestion:
 When we are dealing with huge dataset & time is a constraint use Light GBM Model else when dataset is small than XGBoost can provide better results.
